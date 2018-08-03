@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-application</module>
+        <module>spring-cloud-project</module>
     </modules>
     <packaging>pom</packaging>
 
