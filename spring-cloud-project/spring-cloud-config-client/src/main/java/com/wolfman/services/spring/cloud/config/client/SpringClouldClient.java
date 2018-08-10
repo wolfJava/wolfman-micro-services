@@ -15,7 +15,12 @@ import java.util.Set;
 public class SpringClouldClient {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringClouldClient.class,args);
+        //SpringApplication.run(SpringClouldClient.class,args);
+
+        int k = 0;
+        System.out.println(++k);
+        System.out.println(k++);
+        System.out.println(k);
     }
 
     private final ContextRefresher contextRefresher;
