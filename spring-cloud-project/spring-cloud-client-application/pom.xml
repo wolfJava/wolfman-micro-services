@@ -47,6 +47,14 @@
             </exclusions>
         </dependency>
 
+        <!-- 增加 feign 依赖 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+
+
     </dependencies>
 
 
