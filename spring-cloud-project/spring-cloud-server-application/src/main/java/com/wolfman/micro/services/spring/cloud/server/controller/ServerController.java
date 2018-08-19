@@ -35,7 +35,7 @@ public class ServerController {
             }
     )
     @GetMapping("/say")
-    public String say(@RequestParam String message) throws InterruptedException {
+    public String say(@RequestParam("message") String message) throws InterruptedException {
 
         int value = random.nextInt(200);
         System.out.println("say() costs " + value + "ms.");
