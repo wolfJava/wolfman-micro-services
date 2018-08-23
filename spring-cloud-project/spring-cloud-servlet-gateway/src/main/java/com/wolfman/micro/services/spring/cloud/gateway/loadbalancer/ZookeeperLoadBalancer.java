@@ -31,6 +31,7 @@ public class ZookeeperLoadBalancer extends BaseLoadBalancer {
         if (key instanceof String) {
             String serviceName = String.valueOf(key);
             BaseLoadBalancer baseLoadBalancer = loadBalancerMap.get(serviceName);
+
             return baseLoadBalancer.chooseServer(serviceName);
         }
         return super.chooseServer(key);
